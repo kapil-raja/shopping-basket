@@ -5,10 +5,9 @@
  1. Dowlond the Jar file Using this link: https://github.com/kapil-raja/shopping-basket/releases/download/v0.1.0-SNAPSHOT/shopping-basket-assembly-0.1.0-SNAPSHOT.jar
  2. Open Terminal and navigate to the Jar Downloaded Folder
  3. Execute the below command
-    
      `scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket [your items here]` <br />
     
-     Example:
+  Example:
      `scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup ` <br />
     
      Result will be:
