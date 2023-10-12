@@ -10,7 +10,7 @@
      ``` 
   Example:
      
-     scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup <br />
+     scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup 
     
   Result will be:
    
