@@ -2,7 +2,8 @@
 ## Prerequisites:
  Install Scala using this link: https://www.scala-lang.org/download/
 ## How To Run:
- 1. Dowlond the Jar file Using this link: https://github.com/kapil-raja/shopping-basket/releases/download/v0.1.0-SNAPSHOT/shopping-basket-assembly-0.1.0-SNAPSHOT.jar
+## Option 1: Pre Built Package
+ 1. Dowlond the Jar file Using [this link](https://github.com/kapil-raja/shopping-basket/releases/download/v0.1.0-SNAPSHOT/shopping-basket-assembly-0.1.0-SNAPSHOT.jar)
  2. Open Terminal and navigate to the Jar Downloaded Folder
  3. Execute the below command
      ```
@@ -11,6 +12,31 @@
   Example:
      
      scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup 
+    
+  Result will be:
+  
+    Subtotal: £4.20
+    Bread 50.0% off: 40p
+    Total price: £3.80
+ ## Option 2: Building Manually
+
+1. Install sbt https://www.scala-sbt.org/download.html
+2. Clone The repo
+3. From the root directory run the following commands:
+   
+    a.Build the Jar by execting
+  
+    ``` sbt assembly  ```
+
+    b.Run the application
+  
+     ```
+    scala  -cp target/scala-2.13/shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket [your items here]
+     ``` 
+     
+  Example:
+     
+     scala  -cp target/scala-2.13/shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup 
     
   Result will be:
   
