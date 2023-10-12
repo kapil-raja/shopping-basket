@@ -13,7 +13,7 @@
      scala -cp shopping-basket-assembly-0.1.0-SNAPSHOT.jar com.learning.priceBasket.PriceBasket Milk Bread Bread Soup Soup 
     
   Result will be:
-   
+  
     Subtotal: £4.20
     Bread 50.0% off: 40p
     Total price: £3.80
